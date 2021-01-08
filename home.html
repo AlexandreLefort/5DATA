@@ -23,7 +23,9 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="home.php">Accueil</a></li>
-                        <li><a href="EtudiantFiltre.html">Filtre Etudiant</a></li>
+                        <li><a href="EtudiantFiltre.html">Etudiant</a></li>
+                         <li><a href="SupinfoFiltre.html">Supinfo</a></li>
+                          <li><a href="EntrepriseFiltre.html">Entreprise</a></li>
                     </ul>
                 </nav>
             </header>
@@ -32,22 +34,8 @@
 			<section id="banner">
 				<h2>Bienvenue chez Data Supinfo</h2>
 				<ul class="actions">
-					<li>
-						<form method="post"> 
-    <input type="submit" name="test" id="test" value="Voir la BD" /><br/> 
-</form> 
-                    </li>
-
 				</ul>
 			</section>
-
-<?php 
-include 'connect.php';
-
-    if(array_key_exists('test',$_POST)){ 
-    voirLaBd(); 
-}
- ?>
 
 	</body>
 </html>
