@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "5ff59dad2f34c1fa4a5b8292"
+  },
+  "name": "Thomas",
+  "firstname": "Felix",
+  "age": "22",
+  "campus": "Caen",
+  "Ville": "Caen",
+  "etude": "Master 1",
+  "participation": "Oui",
+  "stage": "Oui",
+  "entreprise": "Orange",
+  "contratPro": "Oui"
+},{
+  "_id": {
+    "$oid": "5ff5a10d2f34c1fa4a5b8293"
+  },
+  "name": "Pierre",
+  "firstname": "Richard",
+  "age": "23",
+  "campus": "Marseille",
+  "Ville": "Reims",
+  "etude": "Master 2",
+  "participation": "Oui",
+  "stage": "Oui",
+  "entreprise": "JVS",
+  "contratPro": "Non"
+},{
+  "_id": {
+    "$oid": "5ff5d5122f34c1fa4a5b829a"
+  },
+  "name": "Theo",
+  "firstname": "Charles",
+  "age": "22",
+  "campus": "Marseille",
+  "Ville": "Chalons en Champagne",
+  "etude": "Master 2",
+  "participation": "Non",
+  "stage": "Oui",
+  "entreprise": "DR Creation",
+  "contratPro": "Oui"
+},{
+  "_id": {
+    "$oid": "5ff5d75d2f34c1fa4a5b829b"
+  },
+  "name": "Alexis",
+  "firstname": "Lians",
+  "age": "22",
+  "campus": "Lyon",
+  "Ville": "Lyon",
+  "etude": "Master 1",
+  "participation": "Oui",
+  "stage": "Non",
+  "entreprise": "BNP",
+  "contratPro": "Non"
+}]
