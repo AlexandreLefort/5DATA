@@ -1,4 +1,4 @@
-<h1>Supinfo 5DATA</h1>
+<h1>Campus</h1>
 <form action="filtreDataCampus.php" method="post">
             <div class="c100">
                 <label for="campus">Campus : </label>

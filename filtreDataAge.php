@@ -1,4 +1,4 @@
-<h1>Supinfo 5DATA</h1>
+<h1>Age</h1>
 <form action="filtreDataAge.php" method="post">
             <div class="c100">
                 <label for="age">Age : </label>
