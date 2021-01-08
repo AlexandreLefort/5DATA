@@ -24,7 +24,7 @@ try {
         
     if (!empty($campus)) {
     
-        echo nl2br("$row->name : $row->age , $row->campus\n");
+        echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
     } else {
     
         echo "No match found\n";
