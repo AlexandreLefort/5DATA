@@ -1,7 +1,11 @@
+<h1>Supinfo 5DATA</h1>
+<form action="filtreDataAge.php" method="post">
+            <div class="c100">
+                <label for="age">Age : </label>
+                <input type="text" id="age" name="age">
+            </div>
 
-
-
-
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataAge($age){
