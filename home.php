@@ -30,7 +30,7 @@
                         <li><a href="filtreDataNom.php">Villle d'origine</a></li>
                         <li><a href="filtreDataNom.php">Etude</a></li>
                         <li><a href="filtreDataNom.php">Participation Forum</a></li>
-                        <li><a href="filtreDataNom.php">Stage</a></li>
+                        <li><a href="filtreDataStage.php">Stage</a></li>
                         <li><a href="filtreDataNom.php">Entreprise</a></li>
                         <li><a href="filtreDataNom.php">Contrat Pro</a></li>
                     </ul>
