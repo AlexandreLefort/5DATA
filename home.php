@@ -23,7 +23,16 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="home.php">Accueil</a></li>
-                        <li><a href="filtreDataNom.php">filtre par nom</a></li>
+                        <li><a href="filtreDataNom.php">Nom</a></li>
+                        <li><a href="filtreDataPrenom.php">Prénom</a></li>
+                        <li><a href="filtreDataNom.php">Age</a></li>
+                        <li><a href="filtreDataNom.php">Campus</a></li>
+                        <li><a href="filtreDataNom.php">Villle d'origine</a></li>
+                        <li><a href="filtreDataNom.php">Etude</a></li>
+                        <li><a href="filtreDataNom.php">Participation Forum</a></li>
+                        <li><a href="filtreDataNom.php">Stage</a></li>
+                        <li><a href="filtreDataNom.php">Entreprise</a></li>
+                        <li><a href="filtreDataNom.php">Contrat Pro</a></li>
                     </ul>
                 </nav>
             </header>
