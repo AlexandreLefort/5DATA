@@ -1,7 +1,7 @@
 <h1>Nom Entreprise</h1>
 
         
-        <form action="filtreDataEntreprise.php" method="post">
+        <form action="Etudiant/filtreDataEntreprise.php" method="post">
             <div class="c100">
                 <label for="entreprise">Nom Entreprise : </label>
                 <input type="text" id="entreprise" name="entreprise">

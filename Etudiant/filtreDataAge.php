@@ -1,22 +1,19 @@
-<h1>Stage</h1>
-
-<h4>La réponse doit être "Oui ou Non"</h4>
-<h5>Attention majuscule obligatoire</h5>
-<form action="filtreDataStage.php" method="post">
+<h1>Age</h1>
+<form action="Etudiant/filtreDataAge.php" method="post">
             <div class="c100">
-                <label for="stage">Stage : </label>
-                <input type="text" id="stage" name="stage">
+                <label for="age">Age : </label>
+                <input type="text" id="age" name="age">
             </div>
 
 <h5>Voici le ou les resultats</h5>
 
 <?php
-function filtreDataStage($stage){
+function filtreDataAge($age){
 try {
          
     $mng = new MongoDB\Driver\Manager("mongodb://localhost:27017");
     
-    $filter = [ 'stage' => $stage ]; 
+    $filter = [ 'age' => $age ]; 
     $query = new MongoDB\Driver\Query($filter);     
     
     $res = $mng->executeQuery("mydb.persons", $query);
@@ -25,7 +22,7 @@ try {
 
     foreach ($res as $row) {
         
-    if (!empty($stage)) {
+    if (!empty($age)) {
     
         echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
     } else {
@@ -47,6 +44,6 @@ try {
 }
 }
 
-$result = $_POST["stage"];
-filtreDataStage($result);
+$result = $_POST["age"];
+filtreDataAge($result);
 ?>    

@@ -1,19 +1,29 @@
-<h1>Niveau d'etude</h1>
+<h1>Campus</h1>
 
-        
-        <form action="filtreDataEtude.php" method="post">
+
+
+</br>
+</br>
+
+<form action="Etudiant/filtreDataCampus.php" method="post">
             <div class="c100">
-                <label for="etude">Nom : </label>
-                <input type="text" id="etude" name="etude">
+                <label for="campus">Campus : </label>
+                <input type="text" id="campus" name="campus">
             </div>
 
+</br>
+</br>
+
+
+<h5>Voici le ou les resultats</h5>
+
 <?php
-function filtreDataEtude($etude){
+function filtreDataCampus($campus){
 try {
          
     $mng = new MongoDB\Driver\Manager("mongodb://localhost:27017");
     
-    $filter = [ 'etude' => $etude ]; 
+    $filter = [ 'campus' => $campus ]; 
     $query = new MongoDB\Driver\Query($filter);     
     
     $res = $mng->executeQuery("mydb.persons", $query);
@@ -21,15 +31,16 @@ try {
     
 
     foreach ($res as $row) {
-    if (!empty($etude)) {
+        
+    if (!empty($campus)) {
     
         echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
-
     } else {
     
         echo "No match found\n";
     }
-    }
+}
+    
 } catch (MongoDB\Driver\Exception\Exception $e) {
 
     $filename = basename(__FILE__);
@@ -43,7 +54,6 @@ try {
 }
 }
 
-$result = $_POST["etude"];
-filtreDataEtude($result);
-?>
-
+$result = $_POST["campus"];
+filtreDataCampus($result);
+?>    

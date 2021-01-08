@@ -1,19 +1,19 @@
-<h1>Participation Forum</h1>
+<h1>Contrat Pro</h1>
 
         
-        <form action="filtreDataParticipation.php" method="post">
+        <form action="Etudiant/filtreDataCp.php" method="post">
             <div class="c100">
-                <label for="participation">Nom : </label>
-                <input type="text" id="participation" name="participation">
+                <label for="contratPro">Nom : </label>
+                <input type="text" id="contratPro" name="contratPro">
             </div>
 
 <?php
-function filtreDataParticipation($participation){
+function filtreDataCp($contratPro){
 try {
          
     $mng = new MongoDB\Driver\Manager("mongodb://localhost:27017");
     
-    $filter = [ 'participation' => $participation ]; 
+    $filter = [ 'contratPro' => $contratPro ]; 
     $query = new MongoDB\Driver\Query($filter);     
     
     $res = $mng->executeQuery("mydb.persons", $query);
@@ -21,7 +21,7 @@ try {
     
 
     foreach ($res as $row) {
-    if (!empty($participation)) {
+    if (!empty($contratPro)) {
     
         echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
 
@@ -43,7 +43,7 @@ try {
 }
 }
 
-$result = $_POST["participation"];
-filtreDataParticipation($result);
+$result = $_POST["contratPro"];
+filtreDataCp($result);
 ?>
 

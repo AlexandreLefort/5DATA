@@ -1,30 +1,28 @@
-<h1>Nom</h1>
+<h1>Ville d'origine</h1>
 
 <?php
 include 'connect.php';
-voirLaBdNom();
+voirLaBdVille();
 ?>
 
 </br>
 </br>
-
-        
-        <form action="filtreDataFirstName.php" method="post">
+        <form action="Etudiant/filtreDataVille.php" method="post">
             <div class="c100">
-                <label for="firstname">Nom : </label>
-                <input type="text" id="firstname" name="firstname">
+                <label for="Ville">Ville d'origine : </label>
+                <input type="text" id="Ville" name="Ville">
             </div>
 
- </br>
-</br>           
+</br>
+</br>
 
 <?php
-function filtreDataFirstName($firstname){
+function filtreDataVille($ville){
 try {
          
     $mng = new MongoDB\Driver\Manager("mongodb://localhost:27017");
     
-    $filter = [ 'firstname' => $firstname ]; 
+    $filter = [ 'Ville' => $ville ]; 
     $query = new MongoDB\Driver\Query($filter);     
     
     $res = $mng->executeQuery("mydb.persons", $query);
@@ -32,7 +30,7 @@ try {
     
 
     foreach ($res as $row) {
-    if (!empty($firstname)) {
+    if (!empty($ville)) {
     
         echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
 
@@ -54,7 +52,7 @@ try {
 }
 }
 
-$result = $_POST["firstname"];
-filtreDataFirstName($result);
+$result = $_POST["Ville"];
+filtreDataVille($result);
 ?>
 
