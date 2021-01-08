@@ -23,7 +23,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="home.php">Accueil</a></li>
-                        <li><a href="connect.php">Rechercher ou filtrer</a></li>
+                        <li><a href="filtreDataNom.php">filtre par nom</a></li>
                     </ul>
                 </nav>
             </header>
