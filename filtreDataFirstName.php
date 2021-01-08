@@ -1,11 +1,22 @@
 <h1>Nom</h1>
 
+<?php
+include 'connect.php';
+voirLaBdNom();
+?>
+
+</br>
+</br>
+
         
         <form action="filtreDataFirstName.php" method="post">
             <div class="c100">
                 <label for="firstname">Nom : </label>
                 <input type="text" id="firstname" name="firstname">
             </div>
+
+ </br>
+</br>           
 
 <?php
 function filtreDataFirstName($firstname){
