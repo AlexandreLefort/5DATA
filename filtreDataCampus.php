@@ -1,9 +1,19 @@
 <h1>Campus</h1>
+
+
+
+</br>
+</br>
+
 <form action="filtreDataCampus.php" method="post">
             <div class="c100">
                 <label for="campus">Campus : </label>
                 <input type="text" id="campus" name="campus">
             </div>
+
+</br>
+</br>
+
 
 <h5>Voici le ou les resultats</h5>
 
