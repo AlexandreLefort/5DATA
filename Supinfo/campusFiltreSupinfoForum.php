@@ -23,7 +23,7 @@ try {
     foreach ($res as $row) {
     if (!empty($forum)) {
     
-        echo nl2br("Nom du campus : Supinfo $row->name , Forum : $row->forum , Entreprises proche : $row->Entreprises \n\n");
+        echo nl2br("Nom du campus : Supinfo $row->name , Forum : $row->forum , Nombre de participation : $row->nbrParticipation \n\n");
     } else {
     
         echo "No match found\n";

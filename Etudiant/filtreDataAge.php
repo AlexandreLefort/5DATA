@@ -1,5 +1,5 @@
 <h1>Age</h1>
-<form action="Etudiant/filtreDataAge.php" method="post">
+<form action="filtreDataAge.php" method="post">
             <div class="c100">
                 <label for="age">Age : </label>
                 <input type="text" id="age" name="age">

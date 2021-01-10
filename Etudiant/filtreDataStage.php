@@ -2,7 +2,7 @@
 
 <h4>La réponse doit être "Oui ou Non"</h4>
 <h5>Attention majuscule obligatoire</h5>
-<form action="Etudiant/filtreDataStage.php" method="post">
+<form action="filtreDataStage.php" method="post">
             <div class="c100">
                 <label for="stage">Stage : </label>
                 <input type="text" id="stage" name="stage">

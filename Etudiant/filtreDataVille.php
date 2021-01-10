@@ -7,7 +7,7 @@ voirLaBdVille();
 
 </br>
 </br>
-        <form action="Etudiant/filtreDataVille.php" method="post">
+        <form action="filtreDataVille.php" method="post">
             <div class="c100">
                 <label for="Ville">Ville d'origine : </label>
                 <input type="text" id="Ville" name="Ville">

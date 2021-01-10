@@ -1,7 +1,7 @@
 <h1>Participation Forum</h1>
 
         
-        <form action="Etudiant/filtreDataParticipation.php" method="post">
+        <form action="filtreDataParticipation.php" method="post">
             <div class="c100">
                 <label for="participation">Nom : </label>
                 <input type="text" id="participation" name="participation">

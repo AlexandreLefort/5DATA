@@ -7,16 +7,27 @@ voirLaBdNom();
 
 </br>
 </br>
+<head>
+        <meta charset="UTF-8">
+        <title>SupDATA</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
+        
+        
+    </head>
+    <body class="landing">
 
         
-        <form action="Etudiant/filtreDataFirstName.php" method="post">
+        <form action="filtreDataFirstName.php" method="post">
             <div class="c100">
                 <label for="firstname">Nom : </label>
                 <input type="text" id="firstname" name="firstname">
             </div>
 
  </br>
-</br>           
+</br>     
+
+</body>
 
 <?php
 function filtreDataFirstName($firstname){

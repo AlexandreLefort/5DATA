@@ -1,7 +1,7 @@
 <h1>Contrat Pro</h1>
 
         
-        <form action="Etudiant/filtreDataCp.php" method="post">
+        <form action="filtreDataCp.php" method="post">
             <div class="c100">
                 <label for="contratPro">Nom : </label>
                 <input type="text" id="contratPro" name="contratPro">

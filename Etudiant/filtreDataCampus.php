@@ -5,7 +5,7 @@
 </br>
 </br>
 
-<form action="Etudiant/filtreDataCampus.php" method="post">
+<form action="filtreDataCampus.php" method="post">
             <div class="c100">
                 <label for="campus">Campus : </label>
                 <input type="text" id="campus" name="campus">

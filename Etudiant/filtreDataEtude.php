@@ -1,7 +1,7 @@
 <h1>Niveau d'etude</h1>
 
         
-        <form action="Etudiant/filtreDataEtude.php" method="post">
+        <form action="filtreDataEtude.php" method="post">
             <div class="c100">
                 <label for="etude">Nom : </label>
                 <input type="text" id="etude" name="etude">
