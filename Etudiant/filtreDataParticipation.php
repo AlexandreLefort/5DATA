@@ -23,7 +23,7 @@ try {
     foreach ($res as $row) {
     if (!empty($participation)) {
     
-        echo nl2br("Prénom : $row->name , Nom : $row->firstname , $row->age ans , Campus de : $row->campus, Ville d'origine : $row->Ville , Etude : $row->etude , Participation :  $row->participation , Stage :  $row->stage , Entreprise : $row->entreprise , Contrat Pro : $row->contratPro \n\n");
+        echo nl2br("Prénom : $row->name , Nom : $row->firstname , Etude : $row->etude , Participation :  $row->participation \n\n");
 
     } else {
     
