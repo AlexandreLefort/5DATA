@@ -1,6 +1,6 @@
 <h1>Stage en Entreprise</h1>
 
-
+<link rel="stylesheet" href="../styleFiltre.css" />
 
 </br>
 </br>

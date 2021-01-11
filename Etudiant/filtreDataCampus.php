@@ -1,4 +1,10 @@
-<h1>Campus</h1>
+<h1>Filtre Campus</h1>
+
+
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
 
 
 
@@ -7,7 +13,8 @@
 
 <form action="filtreDataCampus.php" method="post">
             <div class="c100">
-                <label for="campus">Campus : </label>
+                <label for="campus">Nom du Campus </label>
+                <h4>Caen, Paris, etc ...</h4>
                 <input type="text" id="campus" name="campus">
             </div>
 

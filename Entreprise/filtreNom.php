@@ -1,6 +1,6 @@
 <h1>Nom de l'entreprise</h1>
 
-
+<link rel="stylesheet" href="../styleFiltre.css" />
 
 </br>
 </br>

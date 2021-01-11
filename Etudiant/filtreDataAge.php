@@ -1,11 +1,29 @@
-<h1>Age</h1>
+<h1>Filtre Age</h1>
+
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+
+</br>
+</br>
+
 <form action="filtreDataAge.php" method="post">
             <div class="c100">
                 <label for="age">Age : </label>
+                <h4>Entre 18 et 30</h4>
                 <input type="text" id="age" name="age">
             </div>
 
+</br>
+</br>
+
 <h5>Voici le ou les resultats</h5>
+
+</br>
+</br>
 
 <?php
 function filtreDataAge($age){

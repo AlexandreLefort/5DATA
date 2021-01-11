@@ -1,5 +1,6 @@
 <h1>Nom des entreprises proche du campus</h1>
 
+<link rel="stylesheet" href="../styleFiltre.css" />
         
         <form action="campusFiltreSupinfoEntreprises.php" method="post">
             <div class="c100">

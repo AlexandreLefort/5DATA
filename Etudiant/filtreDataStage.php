@@ -1,15 +1,26 @@
-<h1>Stage</h1>
+<h1>Filtre Stage</h1>
 
-<h4>La réponse doit être "Oui ou Non"</h4>
-<h5>Attention majuscule obligatoire</h5>
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+</br>
+</br>
+
 <form action="filtreDataStage.php" method="post">
             <div class="c100">
-                <label for="stage">Stage : </label>
+                <label for="stage">Oui ou Non </label>
                 <input type="text" id="stage" name="stage">
             </div>
+</br>
+</br>
 
 <h5>Voici le ou les resultats</h5>
 
+</br>
+</br>
 <?php
 function filtreDataStage($stage){
 try {

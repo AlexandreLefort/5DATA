@@ -1,4 +1,6 @@
-<h1>Nom</h1>
+<h1>Filtre Nom</h1>
+
+<link rel="stylesheet" href="../styleFiltre.css" />
 
 <?php
 include 'connect.php';
@@ -20,7 +22,7 @@ voirLaBdNom();
         
         <form action="filtreDataFirstName.php" method="post">
             <div class="c100">
-                <label for="firstname">Nom : </label>
+                <label for="firstname">Nom  </label>
                 <input type="text" id="firstname" name="firstname">
             </div>
 

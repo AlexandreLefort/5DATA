@@ -1,11 +1,26 @@
 <h1>Contrat Pro</h1>
 
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+</br>
+</br>
+
         
         <form action="filtreDataCp.php" method="post">
             <div class="c100">
-                <label for="contratPro">Nom : </label>
+                <label for="contratPro">Oui ou Non </label>
                 <input type="text" id="contratPro" name="contratPro">
             </div>
+
+</br>
+</br>
+
+
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataCp($contratPro){

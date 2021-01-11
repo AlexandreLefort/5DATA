@@ -1,11 +1,26 @@
-<h1>Nom Entreprise</h1>
+<h1>Filtre Entreprise</h1>
 
-        
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+
+</br>
+</br>        
         <form action="filtreDataEntreprise.php" method="post">
             <div class="c100">
-                <label for="entreprise">Nom Entreprise : </label>
+                <label for="entreprise">Nom Entreprise  </label>
+                <h4>Orange, JVS, etc ...</h4>
                 <input type="text" id="entreprise" name="entreprise">
             </div>
+
+</br>
+</br>
+
+
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataEntreprise($entreprise){

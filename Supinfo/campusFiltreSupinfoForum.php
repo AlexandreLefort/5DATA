@@ -1,5 +1,6 @@
 <h1>Participation Forum</h1>
 
+ <link rel="stylesheet" href="../styleFiltre.css" />
         
         <form action="campusFiltreSupinfoForum.php" method="post">
             <div class="c100">

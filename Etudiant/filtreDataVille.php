@@ -1,20 +1,25 @@
-<h1>Ville d'origine</h1>
+<h1>Filtre Ville d'origine</h1>
+<link rel="stylesheet" href="../styleFiltre.css" />
+</br>
+</br>
 
-<?php
-include 'connect.php';
-voirLaBdVille();
-?>
+<h4>Caen, Paris, etc ...</h4>
 
 </br>
 </br>
+
+
         <form action="filtreDataVille.php" method="post">
             <div class="c100">
-                <label for="Ville">Ville d'origine : </label>
+                <label for="Ville">Ville  </label>
                 <input type="text" id="Ville" name="Ville">
             </div>
 
 </br>
 </br>
+
+
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataVille($ville){

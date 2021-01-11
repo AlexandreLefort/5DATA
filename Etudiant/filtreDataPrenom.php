@@ -1,9 +1,14 @@
-<h1>Prénom</h1>
+<h1>Filtre Prénom</h1>
 
-        
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+ <?php
+include 'connect.php';
+voirLaBdPrenom();
+?>       
         <form action="filtreDataPrenom.php" method="post">
             <div class="c100">
-                <label for="prenom">Prénom : </label>
+                <label for="prenom">Prénom </label>
                 <input type="text" id="prenom" name="prenom">
             </div>
 

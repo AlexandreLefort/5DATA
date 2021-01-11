@@ -1,6 +1,6 @@
 <h1>Nombre de Contrat d'ancien Etudiant</h1>
 
-
+<link rel="stylesheet" href="../styleFiltre.css" />
 
 </br>
 </br>

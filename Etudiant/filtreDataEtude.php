@@ -1,11 +1,29 @@
-<h1>Niveau d'etude</h1>
+<h1>Filtre Niveau d'etude</h1>
 
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+
+</br>
+</br> 
         
         <form action="filtreDataEtude.php" method="post">
             <div class="c100">
-                <label for="etude">Nom : </label>
+                <label for="etude">Etude </label>
+                <h4>L1, L2, Bachelor, Master1, Master2</h4>
                 <input type="text" id="etude" name="etude">
             </div>
+            
+        </form>
+
+</br>
+</br>
+
+
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataEtude($etude){

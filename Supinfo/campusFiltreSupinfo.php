@@ -1,5 +1,6 @@
 <h1>Nom du campus Supinfo</h1>
 
+<link rel="stylesheet" href="../styleFiltre.css" />
         
         <form action="campusFiltreSupinfo.php" method="post">
             <div class="c100">

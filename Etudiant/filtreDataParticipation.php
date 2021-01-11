@@ -1,11 +1,26 @@
-<h1>Participation Forum</h1>
+<h1>Filtre Participation Forum</h1>
 
+<link rel="stylesheet" href="../styleFiltre.css" />
+
+</br>
+</br>
+
+
+
+</br>
+</br>
         
         <form action="filtreDataParticipation.php" method="post">
             <div class="c100">
-                <label for="participation">Nom : </label>
+                <label for="participation">Oui ou Non </label>
                 <input type="text" id="participation" name="participation">
             </div>
+
+</br>
+</br>
+
+
+<h5>Voici le ou les resultats</h5>
 
 <?php
 function filtreDataParticipation($participation){
